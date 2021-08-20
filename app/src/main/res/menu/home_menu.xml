@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/updateButton"
+        android:icon="@android:drawable/stat_notify_sync"
+        android:title="@string/actualizar"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/closeSession"
+        android:icon="@android:drawable/ic_lock_idle_lock"
+        android:title="@string/cerrar_sesi_n"
+        app:showAsAction="ifRoom" />
+
+</menu>
